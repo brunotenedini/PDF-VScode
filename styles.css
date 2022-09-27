@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header img {
+    margin-top: 50px;
+    border-radius: 50%;
+    height: 152px;
+    border: 3px solid #555555;
+    transition: transform .3s;
+}
+
+header img:hover {
+    transform: scale(1.1);
+}
+
+header div {
+    text-align: center;
+}
+
+body {
+    background-image: url(./Assets/Fundo.jpg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #121214;
+}
+
+body * {
+    font-family: 'Arimo', sans-serif;
+    line-height: 160%;
+}
+
+main img {
+    height: 350px;
+    width: 250px;
+    margin-top: 40px;
+    border-radius: 6px;
+    transition: transform .3s;
+}
+
+main img:hover {
+    transform: scale(1.1);
+}
+
+
+main {
+    max-width: 580px;
+    width: 90%;
+    margin: 32px auto;
+}
+
+main div {
+        text-align: center;
+        background-color: #262629;
+        padding: 32px;
+        padding-top: 24px;
+        border-radius: 8px;
+        border: 3px solid #555555;
+        margin-top: 70px;
+}
+
+p {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
